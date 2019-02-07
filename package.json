@@ -1,0 +1,28 @@
+{
+  "name": "slackalerts",
+  "version": "1.0.0",
+  "description": "Sends CloudWatch alerts to slack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Illumine-Digital/aws-slack-notify.git"
+  },
+  "keywords": [
+    "slack",
+    "aws",
+    "lambda",
+    "node"
+  ],
+  "author": "Illumine Digital, LLC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Illumine-Digital/aws-slack-notify/issues"
+  },
+  "homepage": "https://github.com/Illumine-Digital/aws-slack-notify#readme",
+  "dependencies": {
+    "aws-sdk": "^2.398.0"
+  }
+}
